@@ -15,13 +15,10 @@
 
 int main(){
     double sale, rate;
-    double tax;
-    printf("Please enter sale and tax rate: \nSale: ");
-    scanf("%lf", &sale);
-    printf("Tax rate: ");
+    double tax; 
+    scanf("%lf", &sale); 
     scanf("%lf", &rate);
     tax = sale * rate;
-    printf("The tax is: ");
     printf("%.2f\n", tax);
     return 0;
 }

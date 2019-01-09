@@ -20,7 +20,7 @@ int main(){
     double r;
     scanf("%lf", &r);
     double size;
-    size = r * M_PI;
+    size = r * r * M_PI;
     printf("%.2f\n", size);
     return 0;
 }

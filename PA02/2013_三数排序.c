@@ -25,20 +25,15 @@
 int main(){
     int a[3];
     scanf("%d %d %d", &a[0], &a[1], &a[2]);
+    // insertion sorting method is applied
     int temp;
-    if(a[1] < a[0]){
-        temp = a[0];
-        a[0] = a[1];
-        a[1] = temp;
-    }
-    if(a[2] < a[1]){
-        temp = a[1];
-        a[1] = a[2];
-        a[2] = temp;
-        if(a[1] < a[0]){
-            temp = a[0];
-            a[0] = a[1];
-            a[1] = temp;
+    for(int i = 1; i < 3; i++){
+        for(int j = i; j > 0; j--){
+            if(a[j] < a[j - 1]){
+                temp = a[j - 1];
+                a[j - 1] = a[j];
+                a[j] = temp;
+            }
         }
     }
     printf("%d %d %d\n", a[0], a[1], a[2]);

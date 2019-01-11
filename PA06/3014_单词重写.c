@@ -52,10 +52,9 @@ int main(){
     }
     // count the times that each word appears in the sentence
     int count[i];
+    memset(count, 0, sizeof(count)); 
     for(int j = 0; j < i; j++){
-        count[j] = 1;
-    }
-    for(int j = 0; j < i - 1; j++){
+        count[j]++;
         for(int k = j + 1; k < i; k++){
             if(strncmp(word[j], word[k], 50) == 0){
                 count[k]++;
@@ -79,9 +78,11 @@ int main(){
     return 0;
 }
 
-// New funtions learned:
+// New functions learned:
 // gets(str); 字符串输入函数，包含空格
 // puts(str); 字符串输出函数，包含空格
+// memset(*array, val, length); 从参数1开始用参数2填充参数3个字节，一般只能用来清零和将数组初始化为0
+// strtok(str, " "); 将字符串按" "分割
 // strcat(Dest, Src); 把一个字符串连接到另一个字符串的后面
 // strcpy(Dest, Src); 把一个字符串复制（替换）成另一个字符串
 // strcmp(string1, string2); 比较两个字符串的大小（ASCII码值），若string1 < string2，返回一个负整数；相等则返回0；否则返回正整数

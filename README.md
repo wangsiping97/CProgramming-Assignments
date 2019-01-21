@@ -85,6 +85,6 @@ int main() {
     return 0;
 }
 ```
-- If you have a better solution for some questions, please feel free to inform me in the comments section, or contact me directly : )
+- If you have a better solution to some of the questions, please feel free to inform me in the comments section, or contact me directly : )
 # Author
 - Github: [@wangsiping97](https://github.com/wangsiping97)

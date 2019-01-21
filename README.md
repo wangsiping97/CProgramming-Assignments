@@ -56,9 +56,9 @@ Assignment codes for C Language Programming Fundamentals, Tsinghua DCST, 2018 sp
 - 上楼问题
 # Description
 - For numbered questions, the first number of the number is the difficulty factor of the title.
-- - eg: The difficulty of `2015_判断完数` is 2, while the difficulty of `3015_阿尔法乘积` is 3. 
+   - eg: The difficulty of `2015_判断完数` is 2, while the difficulty of `3015_阿尔法乘积` is 3. 
 - In each code file, the initial comment part includes the description of the question and corresponding requirements.
-- - eg: In `1007_税额计算.c`:
+   - eg: In `1007_税额计算.c`:
 ```
 // 描述
 // 税务局希望你帮他们编写一个征税程序，该程序的功能是：
@@ -85,6 +85,6 @@ int main() {
     return 0;
 }
 ```
-- If you have a better solution for some questions, please feel free to inform me in the comments section, or contact me directly :)
+- If you have a better solution for some questions, please feel free to inform me in the comments section, or contact me directly : )
 # Author
 - Github: [@wangsiping97](https://github.com/wangsiping97)
